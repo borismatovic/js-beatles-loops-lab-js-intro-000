@@ -22,7 +22,7 @@ function iLoveTheBeatles(num){
   do {
     arr.push('I love the Beatles!')
     num--
-    if(num === 17) break
+    if(num === 17) num = -1
   } while (num >= 0);
   return arr
 }
