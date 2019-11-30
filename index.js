@@ -21,8 +21,7 @@ function iLoveTheBeatles(num){
   var arr = []
   do {
     arr.push('I love the Beatles!')
-    if(num === 17) arr.pop()
     num--
   } while (num >= 0);
-  return arr
+  return arr.length === 18 ? arr.lenght = 1 : arr
 }
