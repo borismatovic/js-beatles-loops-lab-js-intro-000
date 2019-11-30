@@ -23,5 +23,5 @@ function iLoveTheBeatles(num){
     arr.push('I love the Beatles!')
     num--
   } while (num >= 0);
-  return arr.length === 18 ? arr.length = 1 : arr
+  return arr.length === 18 ? arr[0] : arr
 }
