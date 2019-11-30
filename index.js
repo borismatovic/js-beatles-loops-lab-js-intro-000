@@ -8,9 +8,10 @@ return arr
 }
 
 function johnLennonFacts(facts){
-  var counter = facts.length-1;
-  while(counter >= 0){
+  var counter = 0;
+  while(counter < facts.length){
     facts[counter] = `${facts[counter]}!!!`
+    counter++
   }
   return facts
 }
